@@ -2,6 +2,16 @@
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+/* banner style start */
+.banner {
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 250px;
+  text-align: right;
+  padding-right: 200px;
+}
 .banner-title {
   font-size: 65px;
   line-height: 76px;
@@ -24,35 +34,23 @@
   background: #f15b22;
   padding: 25px 25px 20px 20px;
 }
-.banner{
-background-image: url('../images/banner/banner1.png');
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
-padding-top: 250px;
-text-align: right;
-padding-right: 200px;
 
-}
-.banner-info{
-
-}
-.failure{
- display: flex;
-  margin: 0 auto;
-  width: 1200px;
+.failure {
+  display: flex;
   align-items: center;
   gap: 40px;
+  margin: 0 auto;
+  width: 1200px;
 }
-.flex-container{
+.flex-container {
   margin: 0 auto;
 }
-.title{
-text-align: center;
-margin-top: 50px;
-padding: 10px;
+.title {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
 }
-.icons{
+.icons {
   display: flex;
   justify-content: center;
   gap: 80px;
@@ -60,22 +58,60 @@ padding: 10px;
   text-align: center;
   margin-top: 50px;
 }
-.bg-picture{
-background-image: url('../images/watch.png');
-background-repeat: no-repeat;
+.bg-picture {
+  background-image: url("../images/watch.png"), linear-gradient(90deg, #f15d22b6 0%, rgba(241, 91, 34, 0) 100%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  
 }
-.call-now{
+.call-now {
   margin: 0 auto;
   width: 1200px;
 }
-.call-info{
-padding: 80px;
-margin-top: 0px;
+.call-info {
+  padding: 80px;
+  margin-top: 0px;
 }
-.call-title{
-  color: #FFFFFF;
+.call-title {
+  color: #ffffff;
   margin-bottom: 20px;
 }
-.my-plan{
+.button-call-now{
+  font-size: 20px;
+  line-height: 23px;
+  color: black;
+  background:wheat;
+  padding: 25px 25px 20px 20px;
+}
+.my-plan {
   margin-bottom: 50px;
 }
+.footer{
+  background: #151414;
+  margin-top: 60px;
+  display:flex ;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  
+}
+.future{
+  color: #F8F8F8;
+  
+}
+.personal-info{
+  color: #F8F8F8;
+  
+}
+.information{
+  color: #F8F8F8;
+}
+.form{
+  padding: 20px;
+  background: #151414;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid snow;
+}
+
+ 
